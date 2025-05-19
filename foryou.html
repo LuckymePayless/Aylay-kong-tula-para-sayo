@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            body{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <p><b>Alay Kong Tula Para Sa Iyo</b><br><br>
+
+            Ang tulang ito'y alay ko <br>
+            Sa dalagang nagpatibok ng puso ko<br>
+            Sa tuwing ikaw ay aking nakikita<br>
+            Lubos ang saya na aking nadarama<br><br>
+
+            Tuwing ika'y aking nakakausap<br>
+            Ngiti ko'y abot hanggang ulap<br>
+            Ikaw ang babaeng pinakamaganda sa aking paningin<br>
+            Wala nang iba ikaw lang ang aking giliw<br><br>
+
+            Kaya't ako'y humiling sa mga bathala<br>
+            Na si Kupido'y ipadala<br>
+            Upang panain ang iyong puso<br>
+            At sana'y mahulog ka rin sa puso kong totoo<br><br>
+
+            At tila nga'y dininig ng langit ang aking panalangin<br>
+            Nang marinig kong may pagtingin ka rin<br>
+            Ang puso ko'y tumibok nang mas matindi<br>
+            Sapagkat ang pag-ibig kong lihim ay may sagot na narin<br><br>
+
+            Kaya ngayon ako'y humihingi ng pagkakataon,<br>
+            Na ikaw ay ligawan, anuman ang kahinatnan.<br>
+            Handa akong maghintay, kahit ilang taon pa ang lumipas,<br>
+            Basta't pag-ibig ko'y iyong mabigyan ng pansin.<br><br>
+        </p>
+            <input type="text" id="ans">
+            <button onclick="checkAnswer()"> mwah</button><br><br>
+            <h2 id="word"></h2>
+    </body>
+    <script>
+            function checkAnswer(){
+            let ans = document.getElementById("ans").value.toLowerCase();
+
+            if( ans == "oo"){
+                document.getElementById("word"). innerHTML="I LOVE YOU GRARUD MWAH  ";
+            }     
+            else if( ans == "hindi"){
+                document.getElementById("word"). innerHTML="AHH GANON BA SIGE PERO PABAYAN MO NAMAN NA PARAMDAM KO SAYO NA MAHAL KITA";
+            }
+            else{
+                document.getElementById("word"). innerHTML="";
+            }
+        }
+    </script>
+
+</html>
